@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.nav::-webkit-scrollbar{
+    width: 0;
+}
+.itemss{
+    display: grid;
+   grid-template-columns: repeat(1,4fr);
+    background-color: red;
+    gap:40px;
+}
+.conteiner{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 20px;
+    /* background-color: red; */
+}
